@@ -15,7 +15,9 @@ Pattern matching
 Search and replace
 Splitting strings based on patterns
 Customized pattern matching for specific use cases
-Email Validator: The Email Validator is a practical example of applying Regex to validate email addresses. It includes:
+Email Validator: The Email Validator is a practical example of applying Regex to validate email addresses. 
+
+It includes:
 
 Regular expressions for email validation
 Handling common email address formats
