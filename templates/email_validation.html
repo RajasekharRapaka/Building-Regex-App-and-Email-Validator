@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation Result</title>
+</head>
+<body>
+    <h1>Email Validation Result</h1>
+    <p>Email Address: {{ email }}</p>
+    {% if is_valid %}
+        <p>The email address {{ email }} is valid.</p>
+    {% else %}
+        <p>The email address {{ email }} is not valid.</p>
+    {% endif %}
+</body>
+</html>

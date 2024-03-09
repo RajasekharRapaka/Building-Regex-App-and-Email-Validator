@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Matcher</title>
+</head>
+<body>
+    <h1>Regex Matcher</h1>
+    <form action="/results" method="post">
+        <label for="test_string">Test String:</label><br>
+        <input type="text" id="test_string" name="test_string" value="{{ test_string }}"><br>
+        <label for="regex_pattern">Regex Pattern:</label><br>
+        <input type="text" id="regex_pattern" name="regex_pattern" value="{{ regex_pattern }}"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Add a form to validate email address -->
+    <form action="/validate_email" method="post">
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email" value=""><br><br>
+        <button type="submit">Validate Email Address</button>
+    </form>
+</body>
+</html>

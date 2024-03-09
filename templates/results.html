@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Matcher Results</title>
+</head>
+<body>
+    <h1>Regex Matcher Results</h1>
+    <p>Test String: {{ test_string }}</p>
+    <p>Regex Pattern: {{ regex_pattern }}</p>
+
+    {% if matched_strings %}
+        <h2>Matched Strings:</h2>
+        <ul>
+            {% for string in matched_strings %}
+                <li>{{ string }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No matches found.</p>
+    {% endif %}
+
+</body>
+</html>
